@@ -72,7 +72,7 @@ Otherwise, you’re welcome to contact our support team\[support@trackier.com\].
 
 ## **Http Status Codes**
 
-**Review all global errors for the trackier API so you can get back to work fast.**
+**Review all global errors for the Trackier API so you can get back to work fast.**
 
 _**401**_
 

@@ -4,7 +4,7 @@
 
 ## Overview
 
-* [Overview](overview/readme.md)
+* [Overview](overview/overview.md)
 * [Network API](overview/network-api/README.md)
   * [Affiliates](overview/network-api/affiliate/README.md)
     * [Add a new Affiliate](overview/network-api/affiliate/create.md)
