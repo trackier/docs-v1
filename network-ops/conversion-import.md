@@ -10,9 +10,9 @@ If request is sent without **click\_id **it will by default create a new convers
 
 | Field | Type | Description | Required |
 | :--- | :--- | :--- | :--- |
-| conversion\_id | string \(24 character id\) | vNative Conversion ID | No \(Yes when editing\) |
-| campaign\_id | int or string | Either the numeric id or vNative 24 character campaign id | Yes \(If creating new conversion\) |
-| publisher\_id | string | Either the numeric id of vNative 24 character publisher ID | Yes \(if creating new conversion\) |
+| conversion\_id | string \(24 character id\) | Trackier Conversion ID | No \(Yes when editing\) |
+| campaign\_id | int or string | Either the numeric id or Trackier 24 character campaign id | Yes \(If creating new conversion\) |
+| publisher\_id | string | Either the numeric id of Trackier 24 character publisher ID | Yes \(if creating new conversion\) |
 | goal\_id | string | 24 character ID Goal ID associated with this campaign | No |
 | txn\_id | string | Unique identifier provided | No |
 | sub1 | string | Sub ID 1 | No |

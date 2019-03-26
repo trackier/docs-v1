@@ -20,7 +20,7 @@ _**Some Network Operations**_
 | Network Stats |  |  |  |
 |  | GET | [/network/conversions](./conversions.md) | Get Conversion Logs |
 | Conversion Import |  |  |  |
-|  | POST | [/network/conversion-import](//network-ops/conversion-import.md) | Importing Conversions in vNative |
+|  | POST | [/network/conversion-import](//network-ops/conversion-import.md) | Importing Conversions in Trackier |
 | Jobs API |  |  |  |
 |  | GET | [/jobs](//network-ops/jobs.md) | Get All Jobs |
 |  | GET | [/jobs/{id}](//network-ops/jobs.md) | Get Info about a single job |

@@ -2,7 +2,7 @@
 
 ## **Before You Start**
 
-The vNative API is designed for developers, engineers, or anyone else who’s comfortable creating custom-coded solutions or integrating with **RESTful APIs**.
+The Trackier API is designed for developers, engineers, or anyone else who’s comfortable creating custom-coded solutions or integrating with **RESTful APIs**.
 
 ## **Authentication**
 
@@ -58,7 +58,7 @@ We give a valid, signed certificate for all API methods. If you’re manually co
 
 ## **Parameters**
 
-There are 4 main categories of parameters for each endpoint in the vNative API: path, query string, request body, and response body. The API Reference includes a list of all available parameters for each possible request, but these sections offer an overview of the 4 main categories and their subcategories.
+There are 4 main categories of parameters for each endpoint in the Trackier API: path, query string, request body, and response body. The API Reference includes a list of all available parameters for each possible request, but these sections offer an overview of the 4 main categories and their subcategories.
 
 ## **Errors**
 
@@ -68,11 +68,11 @@ And this snippet shows the human-readable error as a JSON object, we recommend r
 
 For HTTP response codes, 4xx codes suggest a bad request. If you receive a 4xx response, we recommend reviewing the Http Status Codes for more context to help you troubleshoot.
 
-Otherwise, you’re welcome to contact our support team\[support@vnative.com\]. If you contact support, we recommend including the complete request you’re trying to make and the error code and response you’re receiving so they can help as quickly as possible.
+Otherwise, you’re welcome to contact our support team\[support@trackier.com\]. If you contact support, we recommend including the complete request you’re trying to make and the error code and response you’re receiving so they can help as quickly as possible.
 
 ## **Http Status Codes**
 
-**Review all global errors for the vNative API so you can get back to work fast.**
+**Review all global errors for the Trackier API so you can get back to work fast.**
 
 _**401**_
 
