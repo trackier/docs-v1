@@ -2,7 +2,7 @@
 
 ## **Before You Start**
 
-The vNative API is designed for developers, engineers, or anyone else who’s comfortable creating custom-coded solutions or integrating with **RESTful APIs**.
+The Trackier API is designed for developers, engineers, or anyone else who’s comfortable creating custom-coded solutions or integrating with **RESTful APIs**.
 
 ## **Authentication**
 
@@ -10,18 +10,18 @@ Go to your Network and Generate API Key from /admin/settings.html then after get
 
 **Api End Point:**
 
-`http://api.vnative.com/`
+`http://api.trackier.com/`
 
 `http://{network}/`
 
 When requesting the api you need to pass api key for authenticating the request in the Header **X-Api-Key** or **Query Parameter - apiKey**
 
 ```bash
-curl -H "X-Api-Key: {key}" "http://api.vnative.com/api/affiliate"
+curl -H "X-Api-Key: {key}" "http://api.trackier.com/api/affiliate"
 ```
 
 ```text
-curl "http://api.vnative.com/api/affiliate?apiKey={key}"
+curl "http://api.trackier.com/api/affiliate?apiKey={key}"
 ```
 
 ## **JSON**
@@ -58,7 +58,7 @@ We give a valid, signed certificate for all API methods. If you’re manually co
 
 ## **Parameters**
 
-There are 4 main categories of parameters for each endpoint in the vNative API: path, query string, request body, and response body. The API Reference includes a list of all available parameters for each possible request, but these sections offer an overview of the 4 main categories and their subcategories.
+There are 4 main categories of parameters for each endpoint in the Trackier API: path, query string, request body, and response body. The API Reference includes a list of all available parameters for each possible request, but these sections offer an overview of the 4 main categories and their subcategories.
 
 ## **Errors**
 
@@ -68,11 +68,11 @@ And this snippet shows the human-readable error as a JSON object, we recommend r
 
 For HTTP response codes, 4xx codes suggest a bad request. If you receive a 4xx response, we recommend reviewing the Http Status Codes for more context to help you troubleshoot.
 
-Otherwise, you’re welcome to contact our support team\[support@vnative.com\]. If you contact support, we recommend including the complete request you’re trying to make and the error code and response you’re receiving so they can help as quickly as possible.
+Otherwise, you’re welcome to contact our support team\[support@trackier.com\]. If you contact support, we recommend including the complete request you’re trying to make and the error code and response you’re receiving so they can help as quickly as possible.
 
 ## **Http Status Codes**
 
-**Review all global errors for the vNative API so you can get back to work fast.**
+**Review all global errors for the trackier API so you can get back to work fast.**
 
 _**401**_
 
@@ -104,7 +104,7 @@ _**500**_
 
 _A generic error message, given when an unexpected condition was encountered and no more specific message is suitable.Please contact Support for more information._
 
-This error lets you know our servers have experienced a problem. Although this is rare, please contact support@vnative.com to let us know that you’ve encountered this error.
+This error lets you know our servers have experienced a problem. Although this is rare, please contact support@trackier.com to let us know that you’ve encountered this error.
 
 _**501**_
 
