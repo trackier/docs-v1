@@ -4,6 +4,12 @@
 | :--- | :--- |
 | POST | /affiliate/requestAccess/{campaignId} |
 
+**Body Parameters**
+
+| Field | Type | Description | Required |
+| :--- | :--- | :--- | :--- |
+| message | string | Request Message for approval | Yes |
+
 ## **Sample Request**
 
 When Sending a request to this endpoint access will be requested to run a campaign if not already requested!!
