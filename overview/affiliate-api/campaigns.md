@@ -102,6 +102,7 @@ _**Note: Feed will only display the active campaigns/offers. All the offers havi
                     "url": "http://trk.vnative.com/{id}",
                     "live": true
                 },
+                "impressionUrl": "http://internal.gotrackier.com/imp?campaign_id=95&pub_id=3",
                 "creatives": []
             },
             {...}
@@ -169,6 +170,7 @@ _**Note: Feed will only display the active campaigns/offers. All the offers havi
                     "url": "http://trk.vnative.com/{id}",
                     "live": true
                 },
+                "impressionUrl": "http://internal.gotrackier.com/imp?campaign_id=3&pub_id=3",
                 "creatives": [
                     {
                         "ad_id": "59a95776b6920d1df631282f",
@@ -241,6 +243,7 @@ _**Note: Feed will only display the active campaigns/offers. All the offers havi
                     "url": "http://trk.vnative.com/{id}",
                     "live": true
                 },
+                "impressionUrl": "http://internal.gotrackier.com/imp?campaign_id=3&pub_id=3",
                 "creatives": [
                     {
                         "ad_id": "586a9073b6920d26411ade98",
@@ -333,6 +336,7 @@ curl -X GET -H "X-Api-Key: {key}" "https://api.vnative.com/affiliate/campaigns/5
             "url": "http://trk.vnative.com/{linkId}",
             "live": false
         },
+        "impressionUrl": "http://internal.gotrackier.com/imp?campaign_id=3&pub_id=3",
         "permission": {
             "hasPermission": false,
             "permRequired": true,
