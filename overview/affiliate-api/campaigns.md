@@ -5,6 +5,14 @@
 | GET | /affiliate/campaigns | Get all the campaigns |
 | GET | /affiliate/campaigns/{campaignId} | Get info about a specific campaign |
 
+## Request Parameters
+
+| Key | Value | Description | Required |
+| :--- | :--- | :--- | :--- |
+| limit | integer | The number of records to be displayed | Yes |
+| page | integer | page number for the given limit | Yes |
+| status | string | To fetch permission campaigns pass this key with value "requestPermission" |  |
+
 ## **All Campaigns**
 
 ### **Sample Request**
@@ -52,6 +60,17 @@ _**Note: Feed will only display the active campaigns/offers. All the offers havi
                 "device": [
                     "all"
                 ],
+                "os": ["android", "ios"],
+                "os_ver": {
+                  "android": {
+                    "min": 5,
+                    "max": 10
+                  },
+                  "ios": {
+                    "min": 6,
+                    "max": 12
+                  }
+                },
                 "expiry": null,
                 "deleted": false,
                 "_id": "59f5e54cb6920d5b8a343c29",
@@ -107,6 +126,17 @@ _**Note: Feed will only display the active campaigns/offers. All the offers havi
                 "device": [
                     "all"
                 ],
+                "os": ["android", "ios"],
+                "os_ver": {
+                  "android": {
+                    "min": 5,
+                    "max": 10
+                  },
+                  "ios": {
+                    "min": 6,
+                    "max": 12
+                  }
+                },
                 "expiry": null,
                 "deleted": false,
                 "_id": "59a95776b6920d1df631282f",
@@ -173,6 +203,17 @@ _**Note: Feed will only display the active campaigns/offers. All the offers havi
                 "device": [
                     "all"
                 ],
+                "os": ["android", "ios"],
+                "os_ver": {
+                  "android": {
+                    "min": 5,
+                    "max": 10
+                  },
+                  "ios": {
+                    "min": 6,
+                    "max": 12
+                  }
+                },
                 "expiry": null,
                 "deleted": false,
                 "_id": "586a9073b6920d26411ade98",
@@ -258,6 +299,17 @@ curl -X GET -H "X-Api-Key: {key}" "https://api.vnative.com/affiliate/campaigns/5
             "device": [
                 "all"
             ],
+            "os": ["android", "ios"],
+            "os_ver": {
+                  "android": {
+                    "min": 5,
+                    "max": 10
+                  },
+                  "ios": {
+                    "min": 6,
+                    "max": 12
+                  }
+            },
             "expiry": null,
             "_id": "{id}",
             "live": true,
