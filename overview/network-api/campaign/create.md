@@ -17,6 +17,13 @@ curl -X POST -H "X-Api-Key: {key}" -H "Content-Type: application/json" -H "Cache
   "category": ["Technology", "Entertainment"],
   "currency": "USD",
   "model": "cpa",
+  "os": ["android","ios"],
+  "os_ver": {
+    "android": {
+      "min": 4,
+      "max": 10
+    }
+  }
   "commissions": [
     {
       "payout": 1,
@@ -42,6 +49,8 @@ curl -X POST -H "X-Api-Key: {key}" -H "Content-Type: application/json" -H "Cache
 | image | string | Url of the image \(which is downloadable\) | Yes |
 | preview\_url | string | Preview URL of campaign | Yes |
 | device | array | Device array | Yes |
+| os | array | Operating System \(all/android/ios\) | Yes |
+| os\_ver | object | Operating System Version Info | Yes |
 | category | array | Categories array | Yes |
 | advertiser\_id\* | string | Advertiser ID | No |
 | commissions\* | array of objects | Campaign Commissions | No |
@@ -80,6 +89,8 @@ curl -X POST -H "X-Api-Key: {key}" -H "Content-Type: application/json" -H "Cache
             "url": "http://www.google.co.in/?utm_source={click_id}",
             "preview_url": "http://google.com/",
             "image": null,
+            "os":["all"],
+            "os_ver": null,
             "category": [
                 "Technology",
                 "Entertainment"

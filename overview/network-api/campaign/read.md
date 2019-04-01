@@ -12,6 +12,7 @@
 | active | integer \(0, 1\) | To display campaigns based on their status \(active or inactive\) | No \(Default: 1\) |
 | limit | integer | The number of records to be displayed | Yes |
 | page | integer | page number for the given limit | Yes |
+| status | string | To fetch permission campaigns pass this key with value "requestPermission" | No |
 
 ## Response body
 
@@ -31,6 +32,17 @@
         "description": "string",
         "image": "image.jpeg",
         "url": "http://url-to-content.com/path/to/content",
+        "os": ["android", "ios"],
+        "os_ver": {
+          "android": {
+            "min": 5,
+            "max": 10
+          },
+          "ios": {
+            "min": 6,
+            "max": 12
+          }
+        },
         "device": [
           "all"
         ],
@@ -56,6 +68,17 @@
         "device": [
           "all"
         ],
+        "os": ["android", "ios"],
+        "os_ver": {
+          "android": {
+            "min": 5,
+            "max": 10
+          },
+          "ios": {
+            "min": 6,
+            "max": 12
+          }
+        },
         "expiry": null,
         "created": "2016-09-28",
         "commissions": [
@@ -96,6 +119,17 @@
       "device": [
         "all"
       ],
+      "os": ["android", "ios"],
+      "os_ver": {
+          "android": {
+            "min": 5,
+            "max": 10
+          },
+          "ios": {
+            "min": 6,
+            "max": 12
+          }
+      },
       "expiry": null,
       "created": "2016-10-09"
     },

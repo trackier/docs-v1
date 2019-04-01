@@ -2,17 +2,23 @@
 
 | **HTTP method** | **End Point** |
 | :--- | :--- |
-| GET | /affiliate/requestAccess/{campaignId} |
+| POST | /affiliate/requestAccess/{campaignId} |
 
 ## **Sample Request**
 
 When Sending a request to this endpoint access will be requested to run a campaign if not already requested!!
 
 ```bash
-curl -X GET -H "X-Api-Key: {key}" -H "Cache-Control: no-cache" "https://api.vnative.com/affiliate/requestAccess/{campaignId}"
+curl -X POST \
+  https://api.vnative.com/affiliate/requestAccess/{campaignId} \
+  -H 'Content-Type: application/json' \
+  -H 'Postman-Token: e33caa07-c03b-4e46-8619-8ee5b17ba676' \
+  -H 'X-Api-Key: {API-KEY}' \
+  -H 'cache-control: no-cache' \
+  -d '{
+	"message": "Demo Message"
+}'
 ```
-
-### **Response body**
 
 On successful request there will be an access object containing the Request Access Id.
 
