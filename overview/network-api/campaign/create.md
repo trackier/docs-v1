@@ -35,7 +35,21 @@ curl -X POST -H "X-Api-Key: {key}" -H "Content-Type: application/json" -H "Cache
       "revenue": 1,
       "coverage": ["ALL"]
     }
-  ]
+  ],
+  "caps": [
+		{
+			"type":"revenue",
+			"monthly": 30,
+			"daily": 1,
+			"lifetime":10000,
+			"pc": 0,
+			"user_id": "5c9dca40b6920d57e15f1aa0",
+			"geo": [
+				"US", 
+				"IN"	
+			]
+		}
+	]
 }' "https://api.vnative.com/campaign"
 ```
 
@@ -54,6 +68,7 @@ curl -X POST -H "X-Api-Key: {key}" -H "Content-Type: application/json" -H "Cache
 | category | array | Categories array | Yes |
 | advertiser\_id\* | string | Advertiser ID | No |
 | commissions\* | array of objects | Campaign Commissions | No |
+| caps | array of objects | Campaign CAPs | Yes |
 | model\* | string | CPA, CPC, CPI, CPM \(default: CPA\) | No |
 | currency | string | 3 letter currency code \(example: USD\) | Yes |
 | status | string | active, pending, paused, disabled \(default: pending\) | Yes |
@@ -74,7 +89,74 @@ curl -X POST -H "X-Api-Key: {key}" -H "Content-Type: application/json" -H "Cache
 * User ID can be found from /advertiser
 * Fields marked with \* are required
 
-## **Response body parameters**
+
+
+### **CAP Object**
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Field</th>
+      <th style="text-align:left">Type</th>
+      <th style="text-align:left">Description</th>
+      <th style="text-align:left">Nullable</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">type</td>
+      <td style="text-align:left">string</td>
+      <td style="text-align:left">
+        <ul>
+          <li>conversion</li>
+          <li>payout</li>
+          <li>revenue</li>
+          <li>click</li>
+          <li>pendingPayout</li>
+          <li>pendingRevenue</li>
+          <li>approvedConv</li>
+        </ul>
+      </td>
+      <td style="text-align:left">No</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">user_id</td>
+      <td style="text-align:left">string</td>
+      <td style="text-align:left">Publisher Long ID</td>
+      <td style="text-align:left">Yes</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">daily</td>
+      <td style="text-align:left">integer</td>
+      <td style="text-align:left">Daily CAP limit</td>
+      <td style="text-align:left">Yes</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">monthly</td>
+      <td style="text-align:left">integer</td>
+      <td style="text-align:left">Monthly CAP Limit</td>
+      <td style="text-align:left">Yes</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">lifetime</td>
+      <td style="text-align:left">integer</td>
+      <td style="text-align:left">Lifetime CAP Limit</td>
+      <td style="text-align:left">Yes</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">pc</td>
+      <td style="text-align:left">integer</td>
+      <td style="text-align:left">0 - false/1 - true</td>
+      <td style="text-align:left">Yes</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">geo</td>
+      <td style="text-align:left">array</td>
+      <td style="text-align:left">List of country codes</td>
+      <td style="text-align:left">Yes</td>
+    </tr>
+  </tbody>
+</table>## **Response body parameters**
 
 ```javascript
 {
@@ -148,6 +230,24 @@ curl -X POST -H "X-Api-Key: {key}" -H "Content-Type: application/json" -H "Cache
                     "ALL"
                 ],
                 "_id": "5bebd18c89d44647667249f4"
+            }
+        ],
+        "caps": [
+            {
+                "pub_id": "ALL",
+                "ad_id": "5ca567dadc713839091cc064",
+                "type": "conversion",
+                "redirect": {
+                    "type": "fallback_link"
+                },
+                "geo": [
+                    "US"
+                ],
+                "id": "5ca567dadc713839091cc067",
+                "daily": null,
+                "monthly": 10,
+                "lifetime": null,
+                "pause_campaign": 1
             }
         ],
         "message": "Campaign created Successfully!!"

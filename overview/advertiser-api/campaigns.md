@@ -51,6 +51,22 @@ curl -X GET -H "X-Api-Key: {key}" -H "Cache-Control: no-cache" -H "Postman-Token
                         "model": "cps",
                         "description": null
                     }
+                ],
+                "caps": [
+                    {
+                        "pub_id": "ALL",
+                        "ad_id": "5",
+                        "type": "5",
+                        "redirect": "5",
+                        "geo": [
+                            "ALL"
+                        ],
+                        "id": "5",
+                        "daily": "5",
+                        "monthly": "5",
+                        "lifetime": "5",
+                        "pause_campaign": 0
+                    }
                 ]
             },
             {
@@ -83,6 +99,22 @@ curl -X GET -H "X-Api-Key: {key}" -H "Cache-Control: no-cache" -H "Postman-Token
                         ],
                         "model": "cpc",
                         "description": null
+                    }
+                ],
+                "caps": [
+                    {
+                        "pub_id": "ALL",
+                        "ad_id": "5",
+                        "type": "5",
+                        "redirect": "5",
+                        "geo": [
+                            "ALL"
+                        ],
+                        "id": "5",
+                        "daily": "5",
+                        "monthly": "5",
+                        "lifetime": "5",
+                        "pause_campaign": 0
                     }
                 ]
             },
@@ -138,6 +170,22 @@ curl -X GET -H "X-Api-Key: {key}" -H "Cache-Control: no-cache" -H "Postman-Token
                         "model": "cpc",
                         "description": null
                     }
+                ],
+                "caps": [
+                    {
+                        "pub_id": "ALL",
+                        "ad_id": "5",
+                        "type": "5",
+                        "redirect": "5",
+                        "geo": [
+                            "ALL"
+                        ],
+                        "id": "5",
+                        "daily": "5",
+                        "monthly": "5",
+                        "lifetime": "5",
+                        "pause_campaign": 0
+                    }
                 ]
             },
             {
@@ -171,6 +219,22 @@ curl -X GET -H "X-Api-Key: {key}" -H "Cache-Control: no-cache" -H "Postman-Token
                         ],
                         "model": "cpa",
                         "description": "Successful acquisition would be when a form is submitted,newslater sign up, registration,an impression."
+                    }
+                ],
+                "caps": [
+                    {
+                        "pub_id": "ALL",
+                        "ad_id": "5",
+                        "type": "5",
+                        "redirect": "5",
+                        "geo": [
+                            "ALL"
+                        ],
+                        "id": "5",
+                        "daily": "5",
+                        "monthly": "5",
+                        "lifetime": "5",
+                        "pause_campaign": 0
                     }
                 ]
             },
@@ -216,6 +280,22 @@ curl -X GET -H "X-Api-Key: {key}" -H "Cache-Control: no-cache" -H "Postman-Token
                         ],
                         "model": "cpc",
                         "description": null
+                    }
+                ],
+                "caps": [
+                    {
+                        "pub_id": "ALL",
+                        "ad_id": "5",
+                        "type": "5",
+                        "redirect": "5",
+                        "geo": [
+                            "ALL"
+                        ],
+                        "id": "5",
+                        "daily": "5",
+                        "monthly": "5",
+                        "lifetime": "5",
+                        "pause_campaign": 0
                     }
                 ]
             }
@@ -292,6 +372,25 @@ curl -X GET -H "X-Api-Key: {key}" -H "Content-Type: application/json" -H "Cache-
                 ],
                 "model": "cpc",
                 "description": null
+            }
+        ],
+         "caps": [
+            {
+                "pub_id": "ALL",
+                "ad_id": "5c9dda0bb6920d6ac322a944",
+                "type": "conversion",
+                "redirect": {
+                    "type": "blank",
+                    "value": ""
+                },
+                "geo": [
+                    "ALL"
+                ],
+                "id": "5ca5684cb6920d7d2c1afb76",
+                "daily": 2,
+                "monthly": 60,
+                "lifetime": 20000,
+                "pause_campaign": 1
             }
         ]
     }

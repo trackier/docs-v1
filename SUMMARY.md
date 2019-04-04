@@ -6,6 +6,11 @@
 
 * [Overview](overview/overview.md)
 * [Network API](overview/network-api/README.md)
+  * [Campaign CAP](overview/network-api/campaign-cap/README.md)
+    * [Create CAPs](overview/network-api/campaign-cap/create-caps.md)
+    * [List CAPs](overview/network-api/campaign-cap/list-caps.md)
+    * [Update CAPs](overview/network-api/campaign-cap/update-caps.md)
+    * [Delete CAP](overview/network-api/campaign-cap/delete-cap.md)
   * [Affiliates](overview/network-api/affiliate/README.md)
     * [Add a new Affiliate](overview/network-api/affiliate/create.md)
     * [Edit an Affiliate](overview/network-api/affiliate/edit.md)
