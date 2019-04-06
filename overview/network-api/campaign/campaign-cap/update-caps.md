@@ -33,7 +33,7 @@
       <td style="text-align:left">Yes</td>
     </tr>
     <tr>
-      <td style="text-align:left">user_id</td>
+      <td style="text-align:left">pub_id</td>
       <td style="text-align:left">string</td>
       <td style="text-align:left">Publisher Long ID</td>
       <td style="text-align:left">Yes</td>

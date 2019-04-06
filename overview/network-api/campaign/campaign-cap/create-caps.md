@@ -33,7 +33,7 @@
       <td style="text-align:left">No</td>
     </tr>
     <tr>
-      <td style="text-align:left">user_id</td>
+      <td style="text-align:left">pub_id</td>
       <td style="text-align:left">string</td>
       <td style="text-align:left">Publisher Long ID</td>
       <td style="text-align:left">Yes</td>
@@ -88,7 +88,7 @@ curl -X POST \
 			"daily": 1,
 			"lifetime":10000,
 			"pc": 0,
-			"user_id": "5c9dca40b6920d57e15f1aa0",
+			"pub_id": "5c9dca40b6920d57e15f1aa0",
 			"geo": [
 				"US", 
 				"IN"	
