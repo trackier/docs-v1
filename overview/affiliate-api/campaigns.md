@@ -5,13 +5,14 @@
 | GET | /affiliate/campaigns | Get all the campaigns |
 | GET | /affiliate/campaigns/{campaignId} | Get info about a specific campaign |
 
-## Request Parameters
+## Request Parameters \(For All Campaign fetch Endpoint\)
 
 | Key | Value | Description | Required |
 | :--- | :--- | :--- | :--- |
 | limit | integer | The number of records to be displayed | Yes |
 | page | integer | page number for the given limit | Yes |
-| status | string | To fetch permission campaigns pass this key with value "requestPermission" |  |
+| status | string | To fetch permission campaigns pass this key with value "requestPermission" | No |
+| model | string | cpi, cpa, cpl, cps, cpc, cpm \(Any One\) | No |
 
 ## **All Campaigns**
 
