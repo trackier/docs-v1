@@ -1,5 +1,7 @@
 # Publisher Specific Payout
 
+#### Note: user\_id field is deprecated
+
 | HTTP Method | End Point | Description |
 | :--- | :--- | :--- |
 | GET | /network/pub-payout/{CampaignID} | Display all campaign payouts |
@@ -25,7 +27,7 @@
             {
                 "ad_id": "5c5ebfebb6920d307d68c92c",
                 "goal_id": null,
-                "user_id": "57c6c75934243d930c8b4581",
+                "user_id": "57c6c75934243d930c8b4581", // Deprecated field
                 "rate": 2,
                 "coverage": [
                     "ALL"
@@ -35,7 +37,7 @@
             {
                 "ad_id": "5c5ebfebb6920d307d68c92c",
                 "goal_id": null,
-                "user_id": "57fce4921d41c83ab1066193",
+                "user_id": "57fce4921d41c83ab1066193", // Deprecated field
                 "rate": 23,
                 "coverage": 
                     "ALL"
@@ -65,7 +67,7 @@
             {
                 "ad_id": "5c5ebfebb6920d307d68c92c",
                 "goal_id": null,
-                "user_id": "57c6c75934243d930c8b4581",
+                "user_id": "57c6c75934243d930c8b4581", // Deprecated field
                 "rate": 2,
                 "coverage": [
                     "ALL"
