@@ -19,6 +19,7 @@
     * [Delete a Campaign](overview/network-api/campaign/delete.md)
     * [Tracking Domains](overview/network-api/campaign/domains.md)
     * [Stats for a campaign](overview/network-api/campaign/stats.md)
+    * [Campaign Access](overview/network-api/campaign/campaign-access.md)
     * [Campaign CAP](overview/network-api/campaign/campaign-cap/README.md)
       * [Create CAPs](overview/network-api/campaign/campaign-cap/create-caps.md)
       * [List CAPs](overview/network-api/campaign/campaign-cap/list-caps.md)
