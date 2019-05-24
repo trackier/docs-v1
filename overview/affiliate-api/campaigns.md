@@ -111,7 +111,7 @@ _**Note: Feed will only display the active campaigns/offers. All the offers havi
                         "id": "5ce689b2b6920d0a303633f4",
                         "title": "Public Goal",
                         "value": "pub_goal",
-                        "model": "fixed",
+                        "payout_model": "fixed",
                         "payouts": [
                             {
                                 "coverage": [
@@ -125,7 +125,7 @@ _**Note: Feed will only display the active campaigns/offers. All the offers havi
                         "id": "5ce68976b6920d0a303633eb",
                         "title": "Publisher Specific",
                         "value": "pub_specific",
-                        "model": "percentage",
+                        "payout_model": "percentage",
                         "payouts": [
                             {
                                 "coverage": [
