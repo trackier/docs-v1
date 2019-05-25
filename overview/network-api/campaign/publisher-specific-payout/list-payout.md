@@ -1,4 +1,4 @@
-# Publisher Specific Payout
+# List Payout
 
 #### Note: user\_id field is deprecated
 
@@ -25,24 +25,33 @@
     "data": {
         "payouts": [
             {
-                "ad_id": "5c5ebfebb6920d307d68c92c",
-                "goal_id": null,
-                "user_id": "57c6c75934243d930c8b4581", // Deprecated field
-                "rate": 2,
+                "ad_id": "5c865f33b6920d5fb344418e",
+                "goal_id": "5ce689b2b6920d0a303633f4",
+                "user_id": "57c6c75934243d930c8b4581",
+                "rate": 8,
                 "coverage": [
                     "ALL"
                 ],
-                "_id": "5c6158e5b6920d73ad30c120"
+                "pids": [
+                    "57c6c75934243d930c8b4581",
+                    "5c6bff16b6920d39975e3712"
+                ],
+                "crev": 1,
+                "_id": "5ce79b42b6920d69cd1cecfc"
             },
             {
-                "ad_id": "5c5ebfebb6920d307d68c92c",
-                "goal_id": null,
-                "user_id": "57fce4921d41c83ab1066193", // Deprecated field
-                "rate": 23,
-                "coverage": 
+                "ad_id": "5c865f33b6920d5fb344418e",
+                "goal_id": "5ce68976b6920d0a303633eb",
+                "user_id": "5c2dd05fb6920d5a14541cf6",
+                "rate": 3,
+                "coverage": [
                     "ALL"
                 ],
-                "_id": "5c61706eb6920d070141da76"
+                "pids": [
+                    "5c2dd05fb6920d5a14541cf6"
+                ],
+                "crev": 0,
+                "_id": "5ce90034b6920d7c942fa3d6"
             }
         ]
     }
@@ -65,14 +74,19 @@
     "data": {
         "payouts": [
             {
-                "ad_id": "5c5ebfebb6920d307d68c92c",
-                "goal_id": null,
-                "user_id": "57c6c75934243d930c8b4581", // Deprecated field
-                "rate": 2,
+                "ad_id": "5c865f33b6920d5fb344418e",
+                "goal_id": "5ce689b2b6920d0a303633f4",
+                "user_id": "57c6c75934243d930c8b4581",
+                "rate": 8,
                 "coverage": [
                     "ALL"
                 ],
-                "_id": "5c6158e5b6920d73ad30c120"
+                "pids": [
+                    "57c6c75934243d930c8b4581",
+                    "5c6bff16b6920d39975e3712"
+                ],
+                "crev": 1,
+                "_id": "5ce79b42b6920d69cd1cecfc"
             }
         ]
     }
