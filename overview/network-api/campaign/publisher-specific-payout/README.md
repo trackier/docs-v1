@@ -5,11 +5,11 @@
 | Operation | HTTP Method | End Point | Description |
 | :--- | :--- | :--- | :--- |
 | Create |  |  |  |
-|  | POST | /network/pub-payout/{campId} | Creates a new payout |
+|  | POST | [/campaign/pub-payout/{campId}](create-payout.md) | Creates a new payout |
 | Read |  |  |  |
-|  | GET | /network/pub-payout/{campId} | Lists all Payouts |
+|  | GET | [/campaign/pub-payout/{campId}](list-payout.md) | Lists all Payouts |
 | Update |  |  |  |
-|  | POST | /network/pub-payout/{campId}/{payoutID} | Update Payout |
+|  | POST | [/campaign/pub-payout/{campId}/{payoutID}](update-payout.md) | Update Payout |
 | Remove |  |  |  |
-|  | DELETE | /network/pub-payout/{payoutID} | Removes payout |
+|  | DELETE | [/campaign/pub-payout/{CampId}{payoutID}](delete-payout.md) | Removes payout |
 

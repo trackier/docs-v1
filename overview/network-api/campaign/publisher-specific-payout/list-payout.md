@@ -4,15 +4,15 @@
 
 | HTTP Method | End Point | Description |
 | :--- | :--- | :--- |
-| GET | /network/pub-payout/{CampaignID} | Display all campaign payouts |
-| GET | /network/pub-payout/{campaignID}/{PublisherID} | Display Publisher Specific Payout |
+| GET | /campaign/pub-payout/{CampaignID} | Display all campaign payouts |
+| GET | /campaign/pub-payout/{campaignID}/{PublisherID} | Display Publisher Specific Payout |
 
 ## Response body
 
 * _**For all campaign specific payouts**_
 
   ```bash
-  GET /network/pub-payout/{CampaignID} HTTP/1.1
+  GET /campaign/pub-payout/{CampaignID} HTTP/1.1
   Host: api.vnative.com
   X-Api-Key: {API-KEY}
   cache-control: no-cache
@@ -61,7 +61,7 @@
 * _**For single publisher payout**_
 
   ```bash
-  GET /network/pub-payout/{CampaignID}/{PublisherID} HTTP/1.1
+  GET /campaign/pub-payout/{CampaignID}/{PublisherID} HTTP/1.1
   Host: https://api.vnative.com
   X-Api-Key: {API-KEY}
   cache-control: no-cache
