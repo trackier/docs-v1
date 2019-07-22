@@ -99,4 +99,5 @@
   * [Custom Report](overview/affiliate-api/custom-report.md)
   * [Account](overview/affiliate-api/account.md)
   * [Campaign Access](overview/affiliate-api/request-access.md)
+  * [Conversion Report](overview/affiliate-api/conversion-report.md)
 
