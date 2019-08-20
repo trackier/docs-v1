@@ -22,6 +22,7 @@
 |  | live | boolean | No |
 |  | category | array | No |
 |  | status | string | No |
+|  | model | string\(cpa, cps, cpm, cpl, cpi, cpc\) | No |
 
 ## **Request body parameters**
 
