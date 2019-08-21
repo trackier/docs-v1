@@ -24,7 +24,10 @@
     "data": {
         "caps": [
             {
-                "pub_id": "ALL",
+                "pub_id": "ALL", (Deprecated)
+                "pids": [
+                    "ALL"
+                ],
                 "ad_id": "5c9dda0bb6920d6ac322a944",
                 "type": "conversion",
                 "redirect": {
@@ -38,10 +41,14 @@
                 "daily": 10,
                 "monthly": null,
                 "lifetime": null,
-                "pause_campaign": 1
+                "pause_campaign": 1,
+                "pub_cap_type": "each"
             },
             {
-                "pub_id": "5c9dca40b6920d57e15f1aa0",
+                "pub_id": "5c9dca40b6920d57e15f1aa0", (Deprecated)
+                "pids": [
+                    "5c9dca40b6920d57e15f1aa0"
+                ]
                 "ad_id": "5c9dda0bb6920d6ac322a944",
                 "type": "revenue",
                 "redirect": {
@@ -55,7 +62,8 @@
                 "daily": 1,
                 "monthly": 30,
                 "lifetime": 10000,
-                "pause_campaign": 0
+                "pause_campaign": 0,
+                "pub_cap_type": "group"
             }
         ]
     }

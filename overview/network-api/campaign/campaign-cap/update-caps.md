@@ -33,10 +33,19 @@
       <td style="text-align:left">Yes</td>
     </tr>
     <tr>
-      <td style="text-align:left">pub_id</td>
+      <td style="text-align:left">pub_id (Deprecated)</td>
       <td style="text-align:left">string</td>
       <td style="text-align:left">Publisher Long ID</td>
       <td style="text-align:left">Yes</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">pids</td>
+      <td style="text-align:left">array</td>
+      <td style="text-align:left">
+        <p>Publisher Long ID&apos;s</p>
+        <p>(For all publisher&apos;s send [&apos;ALL&apos;])</p>
+      </td>
+      <td style="text-align:left">No</td>
     </tr>
     <tr>
       <td style="text-align:left">daily</td>
@@ -66,6 +75,15 @@
       <td style="text-align:left">geo</td>
       <td style="text-align:left">array</td>
       <td style="text-align:left">List of country codes</td>
+      <td style="text-align:left">Yes</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">pub_cap_type</td>
+      <td style="text-align:left">string</td>
+      <td style="text-align:left">
+        <p>Publisher CAP Type i.e each|group</p>
+        <p>(Default: group)</p>
+      </td>
       <td style="text-align:left">Yes</td>
     </tr>
   </tbody>
