@@ -2,8 +2,8 @@
 
 | HTTP Method | End Point | Description |
 | :--- | :--- | :--- |
-| GET | /goal/campaign/{campaign\_id} | Display all the goals |
-| GET | /goal/{goal\_id} | Display info of a single goals |
+| GET | /goal/campaign/{campaign\_id} | Display all the goal |
+| GET | /goal/{goal\_id} | Display info of a single goal |
 
 ## Response body
 
