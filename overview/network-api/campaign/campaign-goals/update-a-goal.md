@@ -2,33 +2,30 @@
 
 | **HTTP method** | **End Point** |
 | :--- | :--- |
-| **POST** | **/goals/{campaignId}/{goalId}** |
+| **POST** | **/goal/{goal\_id}** |
 
 ## Request Fields
 
 | Field | Type | Description | Nullable |
 | :--- | :--- | :--- | :--- |
-| title | string | Goal Type -&gt; public, private | Yes |
-| value | string |  | Yes |
-| payout | float |  | Yes |
-| revenue | float |  | Yes |
-| type | string | Goal Type -&gt; public or private | Yes |
+| title | string | Goal Title | Yes |
+| value | string | Goal Value | Yes |
+| model | string | fixed/percentage | Yes |
+| type | string | private/public/pub\_specific | Yes |
 
 ### Example Request
 
 ```bash
 curl -X POST \
-  https://api.vnative.com/goals/{CampaignId}/{GoalId} \
+  http://restapi.trackier.io/goal/5d638445b6920d0947195996 \
   -H 'Content-Type: application/json' \
-  -H 'Postman-Token: e1b6affb-13b2-43a8-8528-042db834204d' \
+  -H 'X-Api-Key: {API_KEY}' \
   -H 'cache-control: no-cache' \
-  -H 'x-api-key: {API-KEY}' \
   -d '{
-    "type": "public",
-    "payout":2,
-    "revenue": 10,
-    "title":"Testing Goal",
-    "value": "testing"
+	"title": "API Goal",
+	"value": "API_GOAL",
+	"type": "private",
+	"model": "percentage"
 }'
 ```
 
@@ -39,15 +36,12 @@ curl -X POST \
     "success": true,
     "data": {
         "goal": {
-            "_id": "{Goal ID}",
-            "title": "Testing Goal",
-            "value": "testing",
-            "type": "public",
-            "revenue": 10,
-            "payout": 2,
-            "currency": "USD"
+            "_id": "5d638445b6920d0947195996",
+            "title": "API Goal",
+            "value": "API_GOAL",
+            "type": "private"
         },
-        "message": "Goal Saved Successfully!!"
+        "message": "Goal updated Successfully!!"
     }
 }
 ```

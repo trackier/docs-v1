@@ -2,8 +2,8 @@
 
 | HTTP Method | End Point | Description |
 | :--- | :--- | :--- |
-| GET | /goals/{campId} | Display all the goals |
-| GET | /goals/{campId}/{goalId} | Display info of a single goals |
+| GET | /goal/campaign/{campaign\_id} | Display all the goals |
+| GET | /goal/{goal\_id} | Display info of a single goals |
 
 ## Response body
 
@@ -13,38 +13,64 @@ Revenue is what is charged from advertiser and payout is what is given to the af
 
   ```bash
   curl -X GET \
-    https://api.vnative.com/goals/{campaignId} \
-    -H 'Content-Type: application/json' \
-    -H 'Postman-Token: 7d1accec-6850-4860-908f-482f7766493f' \
-    -H 'cache-control: no-cache' \
-    -H 'x-api-key: {API-KEY}'
+    https://api.trackier.com/goal/campaign/{campaign_id} \
+    -H 'X-Api-Key: {API_KEY}' \
+    -H 'cache-control: no-cache'
   ```
 
 ```javascript
-    {
+{
     "success": true,
-    "data": {
-        "goals": [
-            {
-                "_id": "{Goal Id}",
-                "title": "Register",
-                "value": "reg",
-                "type": "public",
-                "revenue": 10,
-                "payout": 2,
-                "currency": "USD"
+    "currency": "USD",
+    "goals": [
+        {
+            "goal": {
+                "_id": "5d638445b6920d0947195996",
+                "title": "API Goal",
+                "value": "API_GOAL",
+                "type": "private"
             },
-            {
-                "_id": "{Goal Id}",
-                "title": "Login",
-                "value": "log",
-                "type": "public",
-                "revenue": 8,
-                "payout": 2,
-                "currency": "USD"
-            }
-        ]
-    }
+            "payouts": [
+                {
+                    "_id": "5d638445b6920d0947195997",
+                    "coverage": [
+                        "ALL"
+                    ],
+                    "revenue": 1000,
+                    "payout": 200,
+                    "model": "percentage"
+                }
+            ]
+        },
+        {
+            "goal": {
+                "_id": "5d63b89789d44630e06ce792",
+                "title": "API GOAL 2",
+                "value": "API_GOAL_23",
+                "type": "private"
+            },
+            "payouts": [
+                {
+                    "_id": "5d63b89789d44630e06ce793",
+                    "coverage": [
+                        "IN"
+                    ],
+                    "revenue": 20,
+                    "payout": 4,
+                    "model": "fixed"
+                },
+                {
+                    "_id": "5d63b89789d44630e06ce794",
+                    "coverage": [
+                        "US"
+                    ],
+                    "revenue": 30,
+                    "payout": 5,
+                    "model": "fixed"
+                }
+            ]
+        }
+    ]
 }
 ```
 
@@ -52,25 +78,32 @@ Revenue is what is charged from advertiser and payout is what is given to the af
 
   ```bash
   curl -X GET \
-    https://api.vnative.com/goals/{campaignId}/{goalId} \
-    -H 'Content-Type: application/json' \
-    -H 'Postman-Token: a042b83d-235b-430a-810e-f9cd1cf1ea9f' \
-    -H 'cache-control: no-cache' \
-    -H 'x-api-key: {API-KEY}'
+    https://api.trackier.com/goal/{goal_id} \
+    -H 'X-Api-Key: 580515b376832580515b376887580515b3768dd' \
+    -H 'cache-control: no-cache'
   ```
 
 ```javascript
+   {
     "success": true,
     "data": {
         "goal": {
-            "_id": "{Goal Id}",
-            "title": "Register",
-            "value": "Reg",
-            "type": "public",
-            "revenue": 10,
-            "payout": 2,
-            "currency": "USD"
-        }
+            "_id": "5d638445b6920d0947195996",
+            "title": "API Goal",
+            "value": "API_GOAL",
+            "type": "private"
+        },
+        "payouts": [
+            {
+                "_id": "5d638445b6920d0947195997",
+                "coverage": [
+                    "ALL"
+                ],
+                "revenue": 10,
+                "payout": 2,
+                "model": "fixed"
+            }
+        ]
     }
 }
 ```

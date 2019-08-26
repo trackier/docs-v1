@@ -2,23 +2,22 @@
 
 | HTTP Method | End Point |
 | :--- | :--- |
-| DELETE | /goals/{campId}/{goalId} |
+| DELETE | /goal/{goal\_id} |
 
 ## Response Body
 
 ```bash
 curl -X DELETE \
-  https://api.vnative.com/goals/{campaignId}/{goalId} \
-  -H 'Content-Type: application/json' \
-  -H 'Postman-Token: 48185b71-6efd-4722-bbff-845718c057a6' \
-  -H 'cache-control: no-cache' \
-  -H 'x-api-key: {API-KEY}'
+  http://restapi.trackier.io/goal/5d638445b6920d0947195996 \
+  -H 'X-Api-Key: {API_KEY}' \
+  -H 'cache-control: no-cache'
 ```
 
 ```javascript
-    "success": boolean,
+{
+    "success": true,
     "data": {
-        "message": "message"
+        "message": "Goal removed from database!!"
     }
 }
 ```
