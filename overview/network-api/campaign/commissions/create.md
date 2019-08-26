@@ -18,7 +18,7 @@
 curl -X POST -H "X-Api-Key: {key}" -H "Content-Type: application/json" -H "Cache-Control: no-cache" -d '{
     "coverage": ["IN", "US"],
     "rate": 0.23,
-    "revenue": 0.35,
+    "revenue": 0.35
 }' "https://api.vnative.com/commissions/{campId}"
 ```
 
