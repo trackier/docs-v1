@@ -120,10 +120,16 @@ curl -X POST -H "X-Api-Key: {key}" -H "Content-Type: application/json" -H "Cache
       <td style="text-align:left">No</td>
     </tr>
     <tr>
-      <td style="text-align:left">pub_id</td>
+      <td style="text-align:left">pub_id (Deprecated)</td>
       <td style="text-align:left">string</td>
       <td style="text-align:left">Publisher Long ID</td>
       <td style="text-align:left">Yes</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">pids</td>
+      <td style="text-align:left">array</td>
+      <td style="text-align:left">Publisher ID&apos;s</td>
+      <td style="text-align:left">No</td>
     </tr>
     <tr>
       <td style="text-align:left">daily</td>

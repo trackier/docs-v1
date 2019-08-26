@@ -9,7 +9,8 @@
 | Action | Fields | Type | Required |
 | :--- | :--- | :--- | :--- |
 | **targeting** |  |  |  |
-|  | device | array | No |
+|  | device | array \(mobile/ tablet/ desktop/ all\) | No |
+|  | os | array \(android/ios/all\) | No |
 |  | visibility | string - \(public or private or permission\) | No |
 | **image\_upload** |  |  |  |
 |  | image\_url | url | Yes |
