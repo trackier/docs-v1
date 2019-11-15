@@ -37,25 +37,25 @@ curl -X POST \
   -H 'X-Api-Key: {API_KEY}' \
   -H 'cache-control: no-cache' \
   -d '{
-	"goal": {
-		"title": "API GOAL 2",
-		"value": "API_GOAL_23",
-		"type": "private",
-		"ad_id": "5d634a5489d4464591741232",
-		"model": "fixed"
-	},
-	"payouts": [
-		{
-			"payout":4,
-			"revenue":20,
-			"coverage": ["IN"]
-		},
-		{
-			"payout":5,
-			"revenue":30,
-			"coverage": ["US"]
-		}
-	]
+    "goal": {
+        "title": "API GOAL 2",
+        "value": "API_GOAL_23",
+        "type": "private",
+        "ad_id": "5d634a5489d4464591741232",
+        "model": "fixed"
+    },
+    "payouts": [
+        {
+            "payout":4,
+            "revenue":20,
+            "coverage": ["IN"]
+        },
+        {
+            "payout":5,
+            "revenue":30,
+            "coverage": ["US"]
+        }
+    ]
 }'
 ```
 

@@ -24,6 +24,9 @@
 |  | category | array | No |
 |  | status | string | No |
 |  | model | string\(cpa, cps, cpm, cpl, cpi, cpc\) | No |
+| settings |  |  |  |
+|  | blacklist\_pubs | Array of Int \(Campaign Short ID's/Display ID's\) | Yes |
+|  | whitelist\_pubs | Array of Int \(Campaign Short ID's/Display ID's\) | Yes |
 
 ## **Request body parameters**
 

@@ -12,6 +12,8 @@
 | value | string | Goal Value | Yes |
 | model | string | fixed/percentage | Yes |
 | type | string | private/public/pub\_specific | Yes |
+| whitelist\_pubs | Array of Int. | Publisher Short ID's/Display ID's | Yes |
+| blacklist\_pubs | Array of Int. | Publisher Short ID's/Display ID's | Yes |
 
 ### Example Request
 
@@ -22,10 +24,12 @@ curl -X POST \
   -H 'X-Api-Key: {API_KEY}' \
   -H 'cache-control: no-cache' \
   -d '{
-	"title": "API Goal",
-	"value": "API_GOAL",
-	"type": "private",
-	"model": "percentage"
+    "title": "API Goal",
+    "value": "API_GOAL",
+    "type": "private",
+    "model": "percentage",
+    "whitelist_pubs": [2, 4, 11],
+    "blacklist_pubs": [6, 8]
 }'
 ```
 
@@ -39,7 +43,9 @@ curl -X POST \
             "_id": "5d638445b6920d0947195996",
             "title": "API Goal",
             "value": "API_GOAL",
-            "type": "private"
+            "type": "private",
+            "whitelist_pubs": [6, 8],
+            "blacklist_pubs": [2, 4, 11]
         },
         "message": "Goal updated Successfully!!"
     }

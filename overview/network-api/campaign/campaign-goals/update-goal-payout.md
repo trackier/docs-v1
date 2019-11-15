@@ -20,9 +20,9 @@ curl -X POST \
   -H 'X-Api-Key: {API_KEY}' \
   -H 'cache-control: no-cache' \
   -d '{
-	"payout": 10,
-	"revenue": 400,
-	"coverage": ["US"]
+    "payout": 10,
+    "revenue": 400,
+    "coverage": ["US"]
 }'
 ```
 

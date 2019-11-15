@@ -1,6 +1,6 @@
 # List Payout
 
-#### Note: user\_id field is deprecated
+### Note: user\_id field is deprecated
 
 | HTTP Method | End Point | Description |
 | :--- | :--- | :--- |

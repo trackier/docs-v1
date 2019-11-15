@@ -27,12 +27,12 @@ curl -X POST \
   -H 'content-length: 150' \
   -b '__cfduid=de429619278fbd4b65dbadb6a65cea3d41551186229; PHPSESSID=vosaiu4kd28qno7gkfm4gvl3k6' \
   -d '{
-	"goal_id": "5ce689b2b6920d0a303633f4",
-	"pids": ["57c6c75934243d930c8b4581"],
-	"crev": 1,
-	"revenue": 20,
-	"payout": 2,
-	"coverage": ["US", "IN"]
+    "goal_id": "5ce689b2b6920d0a303633f4",
+    "pids": ["57c6c75934243d930c8b4581"],
+    "crev": 1,
+    "revenue": 20,
+    "payout": 2,
+    "coverage": ["US", "IN"]
 }'
 ```
 

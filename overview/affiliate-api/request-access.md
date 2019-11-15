@@ -22,7 +22,7 @@ curl -X POST \
   -H 'X-Api-Key: {API-KEY}' \
   -H 'cache-control: no-cache' \
   -d '{
-	"message": "Demo Message"
+    "message": "Demo Message"
 }'
 ```
 

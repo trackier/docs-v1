@@ -19,7 +19,7 @@ curl -X GET -H "X-Api-Key: {key}" -H "Cache-Control: no-cache" "http://api.vnati
 
 The response data will be present under "data" in "stats" containing date wise statistics showing clicks, conversions, impressions, and their meta data.
 
-The Meta data contains the clicks and differentiate the data based on the **country, os, device,** and **referer.** 
+The Meta data contains the clicks and differentiate the data based on the **country, os, device,** and **referer.**
 
 The "total" key contains the summation of all the date wise data
 

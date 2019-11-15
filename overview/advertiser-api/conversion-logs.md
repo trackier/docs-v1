@@ -21,8 +21,6 @@ curl -X GET \
 | limit | Integer | How many Logs you want. | Yes |
 | page | Integer | Page Number | Yes |
 
-
-
 ## Sample **Response body**
 
 ```javascript

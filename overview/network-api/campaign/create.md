@@ -37,19 +37,19 @@ curl -X POST -H "X-Api-Key: {key}" -H "Content-Type: application/json" -H "Cache
     }
   ],
   "caps": [
-		{
-			"type":"revenue",
-			"monthly": 30,
-			"daily": 1,
-			"lifetime":10000,
-			"pc": 0,
-			"pub_id": "5c9dca40b6920d57e15f1aa0",
-			"geo": [
-				"US", 
-				"IN"	
-			]
-		}
-	]
+        {
+            "type":"revenue",
+            "monthly": 30,
+            "daily": 1,
+            "lifetime":10000,
+            "pc": 0,
+            "pub_id": "5c9dca40b6920d57e15f1aa0",
+            "geo": [
+                "US", 
+                "IN"    
+            ]
+        }
+    ]
 }' "https://api.vnative.com/campaign"
 ```
 
@@ -89,24 +89,18 @@ curl -X POST -H "X-Api-Key: {key}" -H "Content-Type: application/json" -H "Cache
 * User ID can be found from /advertiser
 * Fields marked with \* are required
 
-
-
 ### **CAP Object**
+
+| Field | Type | Description | Nullable |
+| :--- | :--- | :--- | :--- |
+
 
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Field</th>
-      <th style="text-align:left">Type</th>
-      <th style="text-align:left">Description</th>
-      <th style="text-align:left">Nullable</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">type</td>
-      <td style="text-align:left">string</td>
-      <td style="text-align:left">
+      <th style="text-align:left">type</th>
+      <th style="text-align:left">string</th>
+      <th style="text-align:left">
         <ul>
           <li>conversion</li>
           <li>payout</li>
@@ -116,53 +110,38 @@ curl -X POST -H "X-Api-Key: {key}" -H "Content-Type: application/json" -H "Cache
           <li>pendingRevenue</li>
           <li>approvedConv</li>
         </ul>
-      </td>
-      <td style="text-align:left">No</td>
+      </th>
+      <th style="text-align:left">No</th>
     </tr>
-    <tr>
-      <td style="text-align:left">pub_id (Deprecated)</td>
-      <td style="text-align:left">string</td>
-      <td style="text-align:left">Publisher Long ID</td>
-      <td style="text-align:left">Yes</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">pids</td>
-      <td style="text-align:left">array</td>
-      <td style="text-align:left">Publisher ID&apos;s</td>
-      <td style="text-align:left">No</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">daily</td>
-      <td style="text-align:left">integer</td>
-      <td style="text-align:left">Daily CAP limit</td>
-      <td style="text-align:left">Yes</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">monthly</td>
-      <td style="text-align:left">integer</td>
-      <td style="text-align:left">Monthly CAP Limit</td>
-      <td style="text-align:left">Yes</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">lifetime</td>
-      <td style="text-align:left">integer</td>
-      <td style="text-align:left">Lifetime CAP Limit</td>
-      <td style="text-align:left">Yes</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">pc</td>
-      <td style="text-align:left">integer</td>
-      <td style="text-align:left">0 - false/1 - true</td>
-      <td style="text-align:left">Yes</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">geo</td>
-      <td style="text-align:left">array</td>
-      <td style="text-align:left">List of country codes</td>
-      <td style="text-align:left">Yes</td>
-    </tr>
-  </tbody>
-</table>## **Response body parameters**
+  </thead>
+  <tbody></tbody>
+</table>| pub\_id \(Deprecated\) | string | Publisher Long ID | Yes |
+| :--- | :--- | :--- | :--- |
+
+
+| pids | array | Publisher ID's | No |
+| :--- | :--- | :--- | :--- |
+
+
+| daily | integer | Daily CAP limit | Yes |
+| :--- | :--- | :--- | :--- |
+
+
+| monthly | integer | Monthly CAP Limit | Yes |
+| :--- | :--- | :--- | :--- |
+
+
+| lifetime | integer | Lifetime CAP Limit | Yes |
+| :--- | :--- | :--- | :--- |
+
+
+| pc | integer | 0 - false/1 - true | Yes |
+| :--- | :--- | :--- | :--- |
+
+
+| geo | array | List of country codes | Yes |
+| :--- | :--- | :--- | :--- |
+
 
 ```javascript
 {

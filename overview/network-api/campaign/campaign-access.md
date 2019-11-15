@@ -27,8 +27,8 @@ curl -X POST \
   -H 'cookie: __cfduid=de429619278fbd4b65dbadb6a65cea3d41551186229; PHPSESSID=vosaiu4kd28qno7gkfm4gvl3k6' \
   -b '__cfduid=de429619278fbd4b65dbadb6a65cea3d41551186229; PHPSESSID=vosaiu4kd28qno7gkfm4gvl3k6' \
   -d '{
-	"publisher_ids": ["5c9dca40b6920d57e15f1aa0"],
-	"campaign_ids": ["5c9dd7fcb6920d676c65b14d"]
+    "publisher_ids": ["5c9dca40b6920d57e15f1aa0"],
+    "campaign_ids": ["5c9dd7fcb6920d676c65b14d"]
 }'
 ```
 

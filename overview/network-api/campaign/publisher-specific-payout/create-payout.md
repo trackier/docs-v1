@@ -25,12 +25,12 @@ curl -X POST \
   -H 'Host: api.trackier.com' \
   -H 'X-Api-Key: {API-KEY}' \
   -d '{
-	"goal_id": "5ce689b2b6920d0a303633f4",
-	"pids": ["57c6c75934243d930c8b4581"],
-	"crev": 1,
-	"revenue": 20,
-	"payout": 2,
-	"coverage": ["US", "IN"]
+    "goal_id": "5ce689b2b6920d0a303633f4",
+    "pids": ["57c6c75934243d930c8b4581"],
+    "crev": 1,
+    "revenue": 20,
+    "payout": 2,
+    "coverage": ["US", "IN"]
 }'
 ```
 
