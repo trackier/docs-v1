@@ -32,7 +32,7 @@ _Remember whatever params you send in query will be visible under the **response
 ## Response body
 
 ```bash
-curl -H 'X-Api-Key: {key}' -X GET 'https://api.vnative.com/network/conversions?query[]=fields&fields[]=cid&fields[]=method&fields[]=sale&fields[]=ipaddr&fields[]=city&fields[]=isp&fields[]=advertiser_id&fields[]=advertiser_long_id&fields[]=advertiser_name&fields[]=publisher_id&fields[]=publisher_long_id&fields[]=publisher_name&fields[]=pid&fields[]=adid&fields[]=goal_id&fields[]=goal_name&fields[]=campaign_id&fields[]=campaign_long_id&fields[]=campaign_name&fields[]=created'
+curl -H 'X-Api-Key: {key}' -X GET 'https://api.trackier.com/network/conversions?query[]=fields&fields[]=cid&fields[]=method&fields[]=sale&fields[]=ipaddr&fields[]=city&fields[]=isp&fields[]=advertiser_id&fields[]=advertiser_long_id&fields[]=advertiser_name&fields[]=publisher_id&fields[]=publisher_long_id&fields[]=publisher_name&fields[]=pid&fields[]=adid&fields[]=goal_id&fields[]=goal_name&fields[]=campaign_id&fields[]=campaign_long_id&fields[]=campaign_name&fields[]=created'
 ```
 
 ```javascript

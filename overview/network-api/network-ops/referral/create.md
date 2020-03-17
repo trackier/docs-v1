@@ -8,7 +8,7 @@
 
 ```bash
 curl -X POST \
-  https://api.vnative.com/network/referral \
+  https://api.trackier.com/network/referral \
   -H 'content-type: application/json' \
   -H 'postman-token: 71bc684a-ba03-dd3c-34b5-792f34ec39c7' \
   -H 'x-api-key: {apiKey}' \

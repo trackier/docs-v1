@@ -10,7 +10,7 @@ Using this API we can get information about the job
 ## Sample Request
 
 ```bash
-curl -i -X GET -H "X-Api-Key: {key}" 'https://api.vnative.com/jobs/{id}'
+curl -i -X GET -H "X-Api-Key: {key}" 'https://api.trackier.com/jobs/{id}'
 ```
 
 ## Sample Response

@@ -52,7 +52,7 @@ curl -i -X POST \
     }
   ]
 }' \
- 'https://api.vnative.com/network/conversion-import'
+ 'https://api.trackier.com/network/conversion-import'
 ```
 
 #### Sample Response

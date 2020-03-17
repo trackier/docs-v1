@@ -12,7 +12,7 @@
 ### Sample Request
 
 ```bash
-curl -X GET -H "X-Api-Key: {key}" -H "Content-Type: application/json" -H "Cache-Control: no-cache" "https://api.vnative.com/network/account"
+curl -X GET -H "X-Api-Key: {key}" -H "Content-Type: application/json" -H "Cache-Control: no-cache" "https://api.trackier.com/network/account"
 ```
 
 ### Response Body
@@ -101,7 +101,7 @@ curl -X PATCH -H "X-Api-Key: {key}" -H "Content-Type: application/json" -H "Cach
     "support": "http://somedomain.com/path/to/support/link",
     "termsurl": "http://somedomain.com/path/to/terms-and-conditions",
     "currency": "USD"
-}' "https://api.vnative.com/network/account"
+}' "https://api.trackier.com/network/account"
 ```
 
 | Fields | Description | Type | Nullable |

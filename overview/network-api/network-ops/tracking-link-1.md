@@ -12,7 +12,7 @@ Sending a request to this endpoint will display the tracking link if exists
 ### **Response body parameters**
 
 ```bash
-curl -X GET -H "X-Api-Key: {key}" -H "Content-Type: application/json" -H "Cache-Control: no-cache" -H "Postman-Token: 495264a7-dcbd-34b5-5e00-cf0a6b9d4884" "https://api.vnative.com/network/link/{affiliate_id}/{campaign_id}"
+curl -X GET -H "X-Api-Key: {key}" -H "Content-Type: application/json" -H "Cache-Control: no-cache" -H "Postman-Token: 495264a7-dcbd-34b5-5e00-cf0a6b9d4884" "https://api.trackier.com/network/link/{affiliate_id}/{campaign_id}"
 ```
 
 ```javascript
@@ -41,7 +41,7 @@ Sending a request to this endpoint will create a tracking link if it does not ex
 ### Request body parameters
 
 ```bash
-curl -X POST -H "X-Api-Key: {key}" -H "Content-Type: application/json" -H "Cache-Control: no-cache" -H "Postman-Token: 37bc9799-7a19-bcd6-6746-2e9552e02dfb" -d '{"domain": "viralarticlez.com"}' "https://api.vnative.com/network/link/{affiliate_id}/{campaign_id}"
+curl -X POST -H "X-Api-Key: {key}" -H "Content-Type: application/json" -H "Cache-Control: no-cache" -H "Postman-Token: 37bc9799-7a19-bcd6-6746-2e9552e02dfb" -d '{"domain": "viralarticlez.com"}' "https://api.trackier.com/network/link/{affiliate_id}/{campaign_id}"
 ```
 
 #### POST Fields
