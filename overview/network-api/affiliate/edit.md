@@ -10,7 +10,7 @@
 curl -X POST -H "X-Api-Key: {key}" -H "Content-Type: application/json" -H "Cache-Control: no-cache" -H "Postman-Token: cc5d7610-80aa-8f1b-983d-fc5712fcfb53" -d '{
   "name": "testUser",
   "live": false
-}' "http://api.vnative.com/affiliate/{id}"
+}' "http://api.trackier.com/affiliate/{id}"
 ```
 
 | Field | Type | Description | Required |

@@ -7,7 +7,7 @@
 ## Request Parameters
 
 ```bash
-curl -X GET -H "X-Api-Key: {key}" -H "Cache-Control: no-cache" "http://api.vnative.com/affiliates/earning/{id}?start=2016-10-12&end=2016-10-13"
+curl -X GET -H "X-Api-Key: {key}" -H "Cache-Control: no-cache" "http://api.trackier.com/affiliates/earning/{id}?start=2016-10-12&end=2016-10-13"
 ```
 
 | Key | Type | Description | Required |

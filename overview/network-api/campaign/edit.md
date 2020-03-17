@@ -52,7 +52,7 @@ curl -X POST -H "X-Api-Key: {key}" -H "Content-Type: application/json" -H "Cache
     "category": ["{id1}", "{id1}"],
     "visibility": "public",
     "permission": false
-}' "https://api.vnative.com/campaign/{id}"
+}' "https://api.trackier.com/campaign/{id}"
 ```
 
 ## **Response body**

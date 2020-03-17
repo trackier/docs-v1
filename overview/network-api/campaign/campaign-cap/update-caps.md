@@ -82,7 +82,7 @@
   <tbody></tbody>
 </table>```bash
 curl -X POST \
-  http://api.vnative.com/caps/{CAMPAIGN-ID}/{CAP-ID} \
+  http://api.trackier.com/caps/{CAMPAIGN-ID}/{CAP-ID} \
   -H 'Content-Type: application/json' \
   -H 'Postman-Token: e0ed3bdf-ddd4-45e6-a1d1-faea5f9b04b5' \
   -H 'X-Api-Key: {API-KEY}' \

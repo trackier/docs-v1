@@ -11,7 +11,7 @@
 
   ```bash
   curl -X GET \
-    http://api.vnative.com/caps/{CAMPAIGN-ID} \
+    http://api.tarckier.com/caps/{CAMPAIGN-ID} \
     -H 'Content-Type: application/json' \
     -H 'Postman-Token: 89f9eeee-79b5-4668-9fd8-a4eccbc7b2d7' \
     -H 'X-Api-Key: {API-KEY}' \
@@ -74,7 +74,7 @@
 
   ```bash
   curl -X GET \
-    http://api.vnative.com/caps/{CAMPAIGN-ID}/{CAP-ID} \
+    http://api.tarckier.com/caps/{CAMPAIGN-ID}/{CAP-ID} \
     -H 'Content-Type: application/json' \
     -H 'Postman-Token: 222e809b-14ba-4216-87fe-ea9abe19d762' \
     -H 'X-Api-Key: {API-KEY}' \

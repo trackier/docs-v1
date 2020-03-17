@@ -14,18 +14,18 @@ Go to your Network and Generate API Key from /admin/settings.html then after get
 
 **Api End Point:**
 
-`http://api.vnative.com/`
+`http://api.trackier.com/`
 
 `http://{network}/`
 
 When requesting the api you need to pass api key for authenticating the request in the Header **X-Api-Key** or **Query Parameter - apiKey**
 
 ```bash
-curl -H "X-Api-Key: {key}" "http://api.vnative.com/api/affiliate"
+curl -H "X-Api-Key: {key}" "http://api.trackier.com/api/affiliate"
 ```
 
 ```text
-curl "http://api.vnative.com/api/affiliate?apiKey={key}"
+curl "http://api.trackier.com/api/affiliate?apiKey={key}"
 ```
 
 ## **JSON**

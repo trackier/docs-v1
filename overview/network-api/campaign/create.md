@@ -50,7 +50,7 @@ curl -X POST -H "X-Api-Key: {key}" -H "Content-Type: application/json" -H "Cache
             ]
         }
     ]
-}' "https://api.vnative.com/campaign"
+}' "https://api.trackier.com/campaign"
 ```
 
 ## **Request body parameters**

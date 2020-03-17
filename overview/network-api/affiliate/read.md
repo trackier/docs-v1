@@ -11,7 +11,7 @@
 * _**Get all the affiliates**_
 
 ```bash
-curl -X GET -H "X-Api-Key: {key}" -H "Cache-Control: no-cache" "http://api.vnative.com/affiliate"
+curl -X GET -H "X-Api-Key: {key}" -H "Cache-Control: no-cache" "http://api.trackier.com/affiliate"
 ```
 
 ```javascript
@@ -65,7 +65,7 @@ curl -X GET -H "X-Api-Key: {key}" -H "Cache-Control: no-cache" "http://api.vnati
 * _**Get a single affiliate info**_
 
 ```bash
-curl -X GET -H "X-Api-Key: {key}" -H "Cache-Control: no-cache" "http://api.vnative.com/affiliate/{id}"
+curl -X GET -H "X-Api-Key: {key}" -H "Cache-Control: no-cache" "http://api.trackier.com/affiliate/{id}"
 ```
 
 ```javascript

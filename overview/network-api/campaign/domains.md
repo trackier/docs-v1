@@ -12,7 +12,7 @@ Sending a request to this endpoint will return the tracking domains of the netwo
 ### Sample Request and Response
 
 ```bash
-curl -X GET -H "X-Api-Key: {key}" -H "Cache-Control: no-cache" "http://api.vnative.com/campaign/domains"
+curl -X GET -H "X-Api-Key: {key}" -H "Cache-Control: no-cache" "http://api.trackier.com/campaign/domains"
 ```
 
 ```javascript
@@ -36,7 +36,7 @@ Sending a request to this endpoint will update the tracking domains list with th
 #### Valid Request
 
 ```bash
-curl -X PUT -H "X-Api-Key: {key}" -H "Content-Type: application/json" -H "Cache-Control: no-cache" -d '{"domains": ["dobolly.com", "bollyhype.com"]}' "https://api.vnative.com/campaign/domains"
+curl -X PUT -H "X-Api-Key: {key}" -H "Content-Type: application/json" -H "Cache-Control: no-cache" -d '{"domains": ["dobolly.com", "bollyhype.com"]}' "https://api.trackier.com/campaign/domains"
 ```
 
 ```javascript
@@ -55,7 +55,7 @@ curl -X PUT -H "X-Api-Key: {key}" -H "Content-Type: application/json" -H "Cache-
 #### Invalid Request
 
 ```bash
-curl -X PUT -H "X-Api-Key: {ket}" -H "Content-Type: application/json" -H "Cache-Control: no-cache" -d '{"domains": null}' "https://api.vnative.com/campaign/domains"
+curl -X PUT -H "X-Api-Key: {ket}" -H "Content-Type: application/json" -H "Cache-Control: no-cache" -d '{"domains": null}' "https://api.trackier.com/campaign/domains"
 ```
 
 ```javascript

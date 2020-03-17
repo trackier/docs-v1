@@ -44,9 +44,9 @@ curl -X POST -H "X-Api-Key: {key}" -H "Content-Type: application/json" -H "Cache
   "phone": "9998887776",
   "custom_fields": {
     "fb_page_url": "http://facebook.com/path",
-    "page_screenshot": "http://demo.vnative.com/assets/img/logo.png"  
+    "page_screenshot": "http://demo.trackier.com/assets/img/logo.png"  
   }
-}' "http://api.vnative.com/affiliate"
+}' "http://api.trackier.com/affiliate"
 ```
 
 Here the format of _custom\_fields_ object is:

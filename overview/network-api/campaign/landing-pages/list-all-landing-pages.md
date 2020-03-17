@@ -8,7 +8,7 @@
 
 ```bash
 curl -X GET \
-  http://api.vnative.com/campaign/lpages/{CampaignID} \
+  http://api.trackier.com/campaign/lpages/{CampaignID} \
   -H 'Content-Type: application/json' \
   -H 'Postman-Token: f412e9ed-1b26-43f0-bcfa-b315315027d3' \
   -H 'X-Api-Key: {API-KEY}' \

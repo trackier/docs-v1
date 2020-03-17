@@ -19,7 +19,7 @@ curl -X POST -H "X-Api-Key: {key}" -H "Content-Type: application/json" -H "Cache
     "rate":2,
     "revenue":5,
     "coverage": ["IN", "US"]
-}' "https://api.vnative.com/commissions/{campId}/{id}"
+}' "https://api.trackier.com/commissions/{campId}/{id}"
 ```
 
 ### **Response body**

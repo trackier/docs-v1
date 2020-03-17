@@ -18,7 +18,7 @@
 * _**For all the campaigns**_
 
   ```bash
-  curl -X GET -H "X-Api-Key: {key}" -H "Cache-Control: no-cache" "http://api.vnative.com/campaign?active=1"
+  curl -X GET -H "X-Api-Key: {key}" -H "Cache-Control: no-cache" "http://api.trackier.com/campaign?active=1"
   ```
 
 ```javascript
@@ -92,7 +92,7 @@
 * _**For a single campaign**_
 
   ```bash
-  curl -X GET -H "X-Api-Key: {key}" -H "Content-Type: application/x-www-form-urlencoded" -H "Cache-Control: no-cache" "http://api.vnative.com/campaign/{id}"
+  curl -X GET -H "X-Api-Key: {key}" -H "Content-Type: application/x-www-form-urlencoded" -H "Cache-Control: no-cache" "http://api.trackier.com/campaign/{id}"
   ```
 
 ```javascript

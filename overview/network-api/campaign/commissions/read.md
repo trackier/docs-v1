@@ -12,7 +12,7 @@ Revenue is what is charged from advertiser and rate is what is given to the affi
 * _**For all the commissions**_
 
   ```bash
-  curl -X GET -H "X-Api-Key: {key}" -H "Cache-Control: no-cache" "http://api.vnative.com/commissions/{campId}"
+  curl -X GET -H "X-Api-Key: {key}" -H "Cache-Control: no-cache" "http://api.trackier.com/commissions/{campId}"
   ```
 
 ```javascript
@@ -54,7 +54,7 @@ Revenue is what is charged from advertiser and rate is what is given to the affi
 * _**For a single commissions**_
 
   ```bash
-  curl -X GET -H "X-Api-Key: {key}" -H "Content-Type: application/x-www-form-urlencoded" -H "Cache-Control: no-cache" "http://api.vnative.com/commissions/{campId}/{id}"
+  curl -X GET -H "X-Api-Key: {key}" -H "Content-Type: application/x-www-form-urlencoded" -H "Cache-Control: no-cache" "http://api.trackier.com/commissions/{campId}/{id}"
   ```
 
 ```javascript

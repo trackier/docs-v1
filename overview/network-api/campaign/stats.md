@@ -15,7 +15,7 @@
 ## Response body
 
 ```bash
-curl -X GET -H "X-Api-Key: {key}" -H "Cache-Control: no-cache" https://api.vnative.com/campaign/stats/{id}
+curl -X GET -H "X-Api-Key: {key}" -H "Cache-Control: no-cache" https://api.trackier.com/campaign/stats/{id}
 ```
 
 ```javascript
