@@ -9,7 +9,7 @@
 ### Example Request
 
 ```bash
-curl -X DELETE -H "X-Api-Key: {key}" -H "Cache-Control: no-cache" "http://api.vnative.com/dictionary/customField/affiliate/{id}"
+curl -X DELETE -H "X-Api-Key: {key}" -H "Cache-Control: no-cache" "http://api.trackier.com/dictionary/customField/affiliate/{id}"
 ```
 
 ### Response Body
@@ -32,7 +32,7 @@ curl -X DELETE -H "X-Api-Key: {key}" -H "Cache-Control: no-cache" "http://api.vn
 ### Example Request
 
 ```bash
-curl -X DELETE -H "X-Api-Key: {key}" -H "Cache-Control: no-cache" "http://api.vnative.com/dictionary/customField/advertiser/{id}"
+curl -X DELETE -H "X-Api-Key: {key}" -H "Cache-Control: no-cache" "http://api.trackier.com/dictionary/customField/advertiser/{id}"
 ```
 
 ### Response Body

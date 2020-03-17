@@ -17,7 +17,7 @@
 ### **Sample Request**
 
 ```bash
-curl --request POST --url https://api.vnative.com/dictionary/customField/affiliate --header 'content-type: application/json' --header 'x-api-key: {key}' --data '{
+curl --request POST --url https://api.trackier.com/dictionary/customField/affiliate --header 'content-type: application/json' --header 'x-api-key: {key}' --data '{
 "fname": "Test custom field",
 "ftype": "text",
 "frequired": false
@@ -52,7 +52,7 @@ curl --request POST --url https://api.vnative.com/dictionary/customField/affilia
 ### **Sample Request**
 
 ```bash
-curl --request POST --url https://api.vnative.com/dictionary/customField/advertiser --header 'content-type: application/json' --header 'x-api-key: {key}' --data '{
+curl --request POST --url https://api.trackier.com/dictionary/customField/advertiser --header 'content-type: application/json' --header 'x-api-key: {key}' --data '{
 "fname": "adv custom field",
 "ftype": "text",
 "frequired": true

@@ -7,7 +7,7 @@
 ## Response Body
 
 ```bash
-curl -X DELETE -H "X-Api-Key: {key}" -H "Cache-Control: no-cache" "http://api.vnative.com/advertiser/{id}"
+curl -X DELETE -H "X-Api-Key: {key}" -H "Cache-Control: no-cache" "http://api.trackier.com/advertiser/{id}"
 ```
 
 ```javascript

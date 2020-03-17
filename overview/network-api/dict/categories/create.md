@@ -7,7 +7,7 @@
 ## **Request body parameters**
 
 ```bash
-curl -X POST -H "X-Api-Key: {key}" -H "Content-Type: application/x-www-form-urlencoded" -H "Cache-Control: no-cache" -d 'name=Entertainment' "http://api.vnative.com/dictionary/categories
+curl -X POST -H "X-Api-Key: {key}" -H "Content-Type: application/x-www-form-urlencoded" -H "Cache-Control: no-cache" -d 'name=Entertainment' "http://api.trackier.com/dictionary/categories
 ```
 
 | Field | Type | Description | Required |

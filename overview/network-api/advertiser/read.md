@@ -11,7 +11,7 @@
 * _**Get all the advertisers**_
 
 ```bash
-curl -X GET -H "X-Api-Key: {key}" -H "Cache-Control: no-cache" "http://api.vnative.com/advertiser"
+curl -X GET -H "X-Api-Key: {key}" -H "Cache-Control: no-cache" "http://api.trackier.com/advertiser"
 ```
 
 ```javascript
@@ -65,7 +65,7 @@ curl -X GET -H "X-Api-Key: {key}" -H "Cache-Control: no-cache" "http://api.vnati
 * _**Get a single advertiser info**_
 
 ```bash
-curl -X GET -H "X-Api-Key: {key}" -H "Cache-Control: no-cache" "http://api.vnative.com/advertiser/{id}"
+curl -X GET -H "X-Api-Key: {key}" -H "Cache-Control: no-cache" "http://api.trackier.com/advertiser/{id}"
 ```
 
 ```javascript

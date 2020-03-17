@@ -8,7 +8,7 @@
 
 ```bash
 curl -X DELETE \
-  http://api.vnative.com/campaign/lpages/{CampaignID}/{LandingPageId} \
+  http://api.trackier.com/campaign/lpages/{CampaignID}/{LandingPageId} \
   -H 'Content-Type: application/json' \
   -H 'Postman-Token: 7d0dbb13-864a-48ba-8fdd-d5cdbf992c6d' \
   -H 'X-Api-Key: {API-KEY}' \

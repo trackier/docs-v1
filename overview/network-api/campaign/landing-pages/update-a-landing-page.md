@@ -16,7 +16,7 @@
 
 ```bash
 curl -X POST \
-  http://api.vnative.com/campaign/lpages/{CampaignID}/{LandingPageId} \
+  http://api.trackier.com/campaign/lpages/{CampaignID}/{LandingPageId} \
   -H 'Content-Type: application/json' \
   -H 'Postman-Token: 016750c4-c098-440b-88c9-167cdad22b63' \
   -H 'X-Api-Key: {API-KEY}' \

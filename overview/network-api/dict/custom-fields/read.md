@@ -7,7 +7,7 @@
 | GET | /dictionary/customField/affiliate |
 
 ```bash
-curl -X GET -H "X-Api-Key: {key}" -H "Content-Type: application/json" -H "Cache-Control: no-cache" "https://api.vnative.com/dictionary/customField/affiliate"
+curl -X GET -H "X-Api-Key: {key}" -H "Content-Type: application/json" -H "Cache-Control: no-cache" "https://api.trackier.com/dictionary/customField/affiliate"
 ```
 
 ### Sample Response Body
@@ -50,7 +50,7 @@ curl -X GET -H "X-Api-Key: {key}" -H "Content-Type: application/json" -H "Cache-
 | GET | /dictionary/customField/advertiser |
 
 ```bash
-curl -X GET -H "X-Api-Key: {key}" -H "Content-Type: application/json" -H "Cache-Control: no-cache" "https://api.vnative.com/dictionary/customField/advertiser"
+curl -X GET -H "X-Api-Key: {key}" -H "Content-Type: application/json" -H "Cache-Control: no-cache" "https://api.trackier.com/dictionary/customField/advertiser"
 ```
 
 ### Sample Response Body

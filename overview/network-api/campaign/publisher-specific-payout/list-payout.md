@@ -62,7 +62,7 @@
 
   ```bash
   GET /campaign/pub-payout/{CampaignID}/{PublisherID} HTTP/1.1
-  Host: https://api.vnative.com
+  Host: https://api.trackier.com
   X-Api-Key: {API-KEY}
   cache-control: no-cache
   Postman-Token: 6178bc09-4cb9-4990-89f5-7fb724b19be8
