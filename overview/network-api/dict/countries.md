@@ -5,7 +5,7 @@
 | GET | /dictionary/countries |
 
 ```bash
-curl -X GET -H "X-Api-Key: {key}" -H "Content-Type: application/json" -H "Cache-Control: no-cache" "https://api.vnative.com/dictionary/countries"
+curl -X GET -H "X-Api-Key: {key}" -H "Content-Type: application/json" -H "Cache-Control: no-cache" "https://api.trackier.com/dictionary/countries"
 ```
 
 ## Response Body
