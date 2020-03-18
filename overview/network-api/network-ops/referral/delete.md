@@ -7,7 +7,7 @@
 ## Sample Request
 
 ```bash
-curl -X DELETE https://api.vnative.com/network/referral/{id}
+curl -X DELETE https://api.trackier.com/network/referral/{id}
 ```
 
 ## Response Body

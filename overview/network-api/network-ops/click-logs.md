@@ -25,7 +25,7 @@ _Remember whatever params you send in query will be visible under the **response
 ## Response body
 
 ```bash
-curl -H 'X-Api-Key: {key}' -X GET 'http://api.vnative.com/network/clicks?apiKey={API_KEY_HERE}&start={YYYY-MM-DD}&end={YYYY-MM-DD}&campaign_id[]={campaign_id}&limit=10&page=1'
+curl -H 'X-Api-Key: {key}' -X GET 'http://api.trackier.com/network/clicks?apiKey={API_KEY_HERE}&start={YYYY-MM-DD}&end={YYYY-MM-DD}&campaign_id[]={campaign_id}&limit=10&page=1'
 ```
 
 ```javascript

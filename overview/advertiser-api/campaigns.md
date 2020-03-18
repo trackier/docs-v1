@@ -10,7 +10,7 @@
 ### **Sample Request**
 
 ```bash
-curl -X GET -H "X-Api-Key: {key}" -H "Cache-Control: no-cache" -H "Postman-Token: f589a813-1ead-93b8-1af7-c57c74376a66" "https://api.vnative.com/advertiser/campaigns"
+curl -X GET -H "X-Api-Key: {key}" -H "Cache-Control: no-cache" -H "Postman-Token: f589a813-1ead-93b8-1af7-c57c74376a66" "https://api.trackier.com/advertiser/campaigns"
 ```
 
 ### **Response body**
@@ -311,7 +311,7 @@ curl -X GET -H "X-Api-Key: {key}" -H "Cache-Control: no-cache" -H "Postman-Token
 ### **Sample Request**
 
 ```bash
-curl -X GET -H "X-Api-Key: {key}" -H "Content-Type: application/json" -H "Cache-Control: no-cache" -H "Postman-Token: c4fec290-5071-a7e3-678d-9f1aac32c768" "https://api.vnative.com/advertiser/campaigns/{campaignId}"
+curl -X GET -H "X-Api-Key: {key}" -H "Content-Type: application/json" -H "Cache-Control: no-cache" -H "Postman-Token: c4fec290-5071-a7e3-678d-9f1aac32c768" "https://api.trackier.com/advertiser/campaigns/{campaignId}"
 ```
 
 ### **Response body**
