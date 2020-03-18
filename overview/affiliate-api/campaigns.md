@@ -19,7 +19,7 @@
 ### **Sample Request**
 
 ```bash
-curl -H "X-Api-Key: {key}" "https://api.vnative.com/affiliate/campaigns"
+curl -H "X-Api-Key: {key}" "https://api.trackier.com/affiliate/campaigns"
 ```
 
 #### Pagination
@@ -32,7 +32,7 @@ curl -H "X-Api-Key: {key}" "https://api.vnative.com/affiliate/campaigns"
 Sample Request with pagination
 
 ```text
-curl 'https://api.vnative.com/affiliate/campaigns?apiKey={key}&limit=100&page=x'
+curl 'https://api.trackier.com/affiliate/campaigns?apiKey={key}&limit=100&page=x'
 ```
 
 _**Note: Feed will only display the active campaigns/offers. All the offers having tracking URL will be runnable by the affiliate**_
@@ -154,7 +154,7 @@ _**Note: Feed will only display the active campaigns/offers. All the offers havi
 ### **Sample Request**
 
 ```bash
-curl -X GET -H "X-Api-Key: {key}" "https://api.vnative.com/affiliate/campaigns/58551c30b6920d760817f711"
+curl -X GET -H "X-Api-Key: {key}" "https://api.trackier.com/affiliate/campaigns/58551c30b6920d760817f711"
 ```
 
 ### **Response body**
