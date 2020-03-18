@@ -8,7 +8,7 @@
 
 ```php
 curl -X GET \
-  'http://api.vnative.com/advertiser/conversion-logs?start=2019-01-01&limit=1&page=2' \
+  'http://api.trackier.com/advertiser/conversion-logs?start=2019-01-01&limit=1&page=2' \
   -H 'Postman-Token: 9d508762-47f8-4247-8529-a4f87435a670' \
   -H 'cache-control: no-cache' \
   -H 'x-api-key: {key}'

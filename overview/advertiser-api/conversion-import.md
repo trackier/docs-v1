@@ -8,7 +8,7 @@
 
 ```php
 curl -X POST \
-  https://api.vnative.com/advertiser/conversion-import \
+  https://api.trackier.com/advertiser/conversion-import \
   -H 'Content-Type: application/json' \
   -H 'Postman-Token: 69111d0d-2e3b-44aaa-962c-993582228cea' \
   -H 'X-Api-Key: 586118d12b1333360c8d12b1822860c8d12aaaa' \
