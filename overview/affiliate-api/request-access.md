@@ -16,7 +16,7 @@ When Sending a request to this endpoint access will be requested to run a campai
 
 ```bash
 curl -X POST \
-  https://api.vnative.com/affiliate/requestAccess/{campaignId} \
+  https://api.trackier.com/affiliate/requestAccess/{campaignId} \
   -H 'Content-Type: application/json' \
   -H 'Postman-Token: e33caa07-c03b-4e46-8619-8ee5b17ba676' \
   -H 'X-Api-Key: {API-KEY}' \
