@@ -10,7 +10,7 @@
 ### **Sample Request**
 
 ```bash
-curl -X GET -H "X-Api-Key: {key}" -H "Cache-Control: no-cache" -H "Postman-Token: 0e0b686e-7911-32a4-c10b-99ceb8e45d28" "https://api.vnative.com/advertiser/account"
+curl -X GET -H "X-Api-Key: {key}" -H "Cache-Control: no-cache" -H "Postman-Token: 0e0b686e-7911-32a4-c10b-99ceb8e45d28" "https://api.trackier.com/advertiser/account"
 ```
 
 ### **Response body**
@@ -78,7 +78,7 @@ curl -X PATCH -H "X-Api-Key: {key}" -H "Content-Type: application/json" -H "Cach
     "action": "password",
     "old_password": "dfjkl34D45F",
     "new_password": "somethingCool!!"
-}' "https://api.vnative.com/advertiser/account"
+}' "https://api.trackier.com/advertiser/account"
 ```
 
 | Actions | Fields | Type | Required |

@@ -16,7 +16,7 @@
 ## Response body
 
 ```bash
-curl -X GET -H "X-Api-Key: {key}" -H "Cache-Control: no-cache" -H "Postman-Token: 2a90e180-ad2b-3a79-f40e-f4c9b83c2b0e" "https://api.vnative.com/advertiser/customReport?group[]=device&group[]=adid"
+curl -X GET -H "X-Api-Key: {key}" -H "Cache-Control: no-cache" -H "Postman-Token: 2a90e180-ad2b-3a79-f40e-f4c9b83c2b0e" "https://api.trackier.com/advertiser/customReport?group[]=device&group[]=adid"
 ```
 
 ```javascript
