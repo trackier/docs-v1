@@ -7,7 +7,7 @@
 ## **Sample Request**
 
 ```bash
-curl -X GET -H "X-Api-Key: {key}" -H "Cache-Control: no-cache" -H "Postman-Token: 3c25dbcc-806a-b87f-5f29-338b74d04709" "https://api.vnative.com/advertiser/campaignStats/{id}"
+curl -X GET -H "X-Api-Key: {key}" -H "Cache-Control: no-cache" -H "Postman-Token: 3c25dbcc-806a-b87f-5f29-338b74d04709" "https://api.trackier.com/advertiser/campaignStats/{id}"
 ```
 
 | Key | Type | Description | Nullable |
