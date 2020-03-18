@@ -7,7 +7,7 @@
 ## **Sample Request**
 
 ```bash
-curl -X GET -H "X-Api-Key: {key}" -H "Cache-Control: no-cache" "http://api.vnative.com/network/referral"
+curl -X GET -H "X-Api-Key: {key}" -H "Cache-Control: no-cache" "http://api.trackier.com/network/referral"
 ```
 
 ## **Sample Response**
@@ -17,7 +17,7 @@ Here user\_id in each referral object represents the publisher ID i.e for which 
 Eg: if referrals\[0\].\_id = HMN, then the referral link for the publisher will be
 
 ```bash
-http://{domain}.vnative.com/publisher/register.html?referral=HMN
+http://{domain}.trackier.com/publisher/register.html?referral=HMN
 ```
 
 ```javascript
