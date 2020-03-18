@@ -20,7 +20,7 @@ curl -X GET
     -H "X-Api-Key: {key}" 
     -H "Cache-Control: no-cache" 
     -H "Postman-Token: 2a90e180-ad2b-3a79-f40e-f4c9b83c2b0e" 
-    "https://api.vnative.com/affiliate/customReport?start=2019-01-01"
+    "https://api.trackier.com/affiliate/customReport?start=2019-01-01"
 ```
 
 ```javascript

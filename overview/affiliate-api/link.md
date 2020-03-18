@@ -8,7 +8,7 @@
 ## **Sample Request**
 
 ```bash
-curl -X GET -H "X-Api-Key: {key}" -H "Cache-Control: no-cache" -H "Postman-Token: dcef3ea0-3581-213c-eb32-feb0e708f3ea" "https://api.vnative.com/affiliate/link/{campaignId}"
+curl -X GET -H "X-Api-Key: {key}" -H "Cache-Control: no-cache" -H "Postman-Token: dcef3ea0-3581-213c-eb32-feb0e708f3ea" "https://api.trackier.com/affiliate/link/{campaignId}"
 ```
 
 ### **Response body**
